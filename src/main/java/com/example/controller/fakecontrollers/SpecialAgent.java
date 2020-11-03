@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.controller.fakecontrollers;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;

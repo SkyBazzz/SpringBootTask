@@ -16,17 +16,17 @@ public class TaskController {
     @Autowired
     private TaskService userService;
 
-    @GetMapping("/users/{title}")
+    @GetMapping("/task/{title}")
     public Task findByTitle(@PathVariable String title) {
         return userService.findByTitle(title);
     }
 
-    @GetMapping("/users")
+    @GetMapping("/tasks")
     public List<Task> allUsers() {
         return userService.findAll();
     }
 
-    @GetMapping("/users/count")
+    @GetMapping("/tasks/count")
     public Long count() {
 
         return userService.count();
