@@ -1,7 +1,7 @@
-package com.example;
+package com.epam.tasks.runner;
 
-import com.example.model.Task;
-import com.example.repository.TaskRepository;
+import com.epam.tasks.model.Task;
+import com.epam.tasks.repository.TaskRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

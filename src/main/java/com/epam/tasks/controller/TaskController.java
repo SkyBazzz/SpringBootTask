@@ -1,7 +1,8 @@
-package com.example.controller;
+package com.epam.tasks.controller;
 
-import com.example.model.Task;
-import com.example.service.TaskService;
+import com.epam.tasks.model.Task;
+import com.epam.tasks.service.TaskService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

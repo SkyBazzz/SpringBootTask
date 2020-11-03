@@ -1,7 +1,8 @@
-package com.example.controller.fakecontrollers;
+package com.epam.tasks.controller.fakecontrollers;
 
-import com.example.dto.AirportInfo;
-import com.example.exception.FlightNotFoundException;
+import com.epam.tasks.dto.AirportInfo;
+import com.epam.tasks.exception.FlightNotFoundException;
+
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

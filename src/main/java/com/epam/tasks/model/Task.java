@@ -1,4 +1,4 @@
-package com.example.model;
+package com.epam.tasks.model;
 
 import javax.persistence.*;
 import java.util.Objects;

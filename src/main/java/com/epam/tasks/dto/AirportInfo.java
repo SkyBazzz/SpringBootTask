@@ -1,4 +1,4 @@
-package com.example.dto;
+package com.epam.tasks.dto;
 
 public class AirportInfo {
 
