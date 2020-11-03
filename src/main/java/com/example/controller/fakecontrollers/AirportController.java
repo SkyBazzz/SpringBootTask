@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.controller.fakecontrollers;
 
 import com.example.dto.AirportInfo;
 import com.example.exception.FlightNotFoundException;
