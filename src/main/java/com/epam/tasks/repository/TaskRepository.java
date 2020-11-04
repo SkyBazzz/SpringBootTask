@@ -1,6 +1,6 @@
-package com.example.repository;
+package com.epam.tasks.repository;
 
-import com.example.model.Task;
+import com.epam.tasks.model.Task;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

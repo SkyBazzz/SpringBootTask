@@ -1,7 +1,8 @@
-package com.example.service;
+package com.epam.tasks.service;
 
-import com.example.model.Task;
-import com.example.repository.TaskRepository;
+import com.epam.tasks.model.Task;
+import com.epam.tasks.repository.TaskRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

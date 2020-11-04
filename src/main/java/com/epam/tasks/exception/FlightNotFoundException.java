@@ -1,4 +1,4 @@
-package com.example.exception;
+package com.epam.tasks.exception;
 
 
 import org.springframework.http.HttpStatus;
