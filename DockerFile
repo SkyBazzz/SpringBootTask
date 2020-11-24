@@ -1,6 +1,6 @@
 FROM openjdk:latest
 
-ADD build/libs/demo-0.0.1-SNAPSHOT.jar app.jar
+ADD build/libs/task-spring-1.0.1-SNAPSHOT-sources.jar app.jar
 
 ENTRYPOINT ["java","-jar","app.jar"]
 

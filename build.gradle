@@ -5,7 +5,8 @@ plugins {
 }
 
 group = 'com.example'
-version = '0.0.1-SNAPSHOT'
+archivesBaseName = 'task-spring'
+version = '1.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
@@ -22,6 +23,10 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 
 	}
+}
+
+java {
+	withSourcesJar()
 }
 
 test {
