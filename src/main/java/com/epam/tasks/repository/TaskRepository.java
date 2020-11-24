@@ -9,6 +9,7 @@ import java.util.List;
 @Repository
 public interface TaskRepository extends CrudRepository<Task, Long> {
 
+    // Example of custom search query
     Task findByTitle(String title);
 
     List<Task> findAllByEnabled(boolean isEnabled);

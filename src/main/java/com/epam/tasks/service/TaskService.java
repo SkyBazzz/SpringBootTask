@@ -1,13 +1,13 @@
 package com.epam.tasks.service;
 
-import com.epam.tasks.model.Task;
-import com.epam.tasks.repository.TaskRepository;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.epam.tasks.model.Task;
+import com.epam.tasks.repository.TaskRepository;
 
 @Service
 public class TaskService {
@@ -15,8 +15,17 @@ public class TaskService {
     @Autowired
     private TaskRepository taskRepository;
 
+    public Task findById(Long id) {
+        return taskRepository.findById(id)
+                             .orElseThrow(RuntimeException::new);
+    }
+
     public Task findByTitle(String title) {
         return taskRepository.findByTitle(title);
+    }
+
+    public Task save(Task task) {
+       return taskRepository.save(task);
     }
 
     public List<Task> findAll() {
